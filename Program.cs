@@ -33,3 +33,6 @@ Console.Write($"[");
     }
     Console.Write("\b\b] \n");
 }
+string[] ChallengeArr = UserArray();
+PrintUserArray(ChallengeArr);
+ArrayThreeElenent(ChallengeArr);
