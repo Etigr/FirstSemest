@@ -11,3 +11,11 @@
     }
   return ArrayUser;
 }
+void PrintUserArray(string[] ArrayUser)
+{
+    Console.WriteLine($" Массив, созданный юзером: ");
+    Console.Write($"[");
+    for (int i = 0; i < ArrayUser.Length; i++)
+    Console.Write($" {ArrayUser[i],1}, "); 
+    Console.Write("\b\b] \n");
+}
