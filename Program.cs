@@ -1,8 +1,8 @@
 ﻿string[] UserArray()
 {
-  Console.Write($"Введи количество элементов массива: ");
-  int ElemenArr = Convert.ToInt32(Console.ReadLine());
-  string[] ArrayUser = new string[ElemenArr];
+  Console.Write($"Введи количество элементов массива больше 0: ");
+  int ElementArr = Convert.ToInt32(Console.ReadLine());
+  string[] ArrayUser = new string[ElementArr];
 
     for (int i = 0; i < ArrayUser.Length; i++)
     {
@@ -22,7 +22,6 @@ void PrintUserArray(string[] ArrayUser)
 void ArrayThreeElenent(string[] ArrayUser)
 {
   string[] NewArray = new string[ArrayUser.Length];
-// Console.WriteLine($"");
 Console.WriteLine($"Выборка элементов массива не более 3 символов:");
 Console.Write($"[");
   for (int i = 0; i < ArrayUser.Length; i++)
